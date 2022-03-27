@@ -9,7 +9,6 @@
   --color-quote-bg: #e5e7eb;
   --color-quote-text: #1f2937;
   --color-image-container: #6d747d;
-  font-size: 16px;
 }
 
 * {
@@ -18,6 +17,7 @@
 
 body {
   font-family: "Public Sans", sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -25,16 +25,20 @@ body {
 .dark-bg {
   color: var(--color-hero-main);
   background-color: var(--color-dark-bg);
+  padding: 6rem;
 }
 .white-bg {
+  padding: 6rem;
   color: var(--color-info-header);
   background-color: #fff;
 }
 .light-bg {
+  padding: 6rem;
   color: var(--color-quote-text);
   background-color: var(--color-quote-bg);
 }
 .blue-bg {
+  padding: 2rem;
   color: var(--color-hero-secondary);
   background-color: var(--color-button);
 }
@@ -43,11 +47,41 @@ body {
   text-align: center;
 }
 
-section {
-  padding: 2rem 0;
+.--footer {
+  padding: 2rem 0rem;
 }
 
 ul {
   list-style-type: none;
   text-decoration: none;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.signup {
+  background-color: var(--color-button);
+  color: var(--color-hero-secondary);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem 0 6rem;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+}
+
+.placeholder {
+  height: 15rem;
+  width: 30rem;
+  background-color: var(--color-image-container);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
