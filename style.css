@@ -9,6 +9,7 @@
   --color-quote-bg: #e5e7eb;
   --color-quote-text: #1f2937;
   --color-image-container: #6d747d;
+  font-size: 16px;
 }
 
 * {
@@ -16,8 +17,37 @@
 }
 
 body {
-  font-size: 16px;
   font-family: "Public Sans", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.dark-bg {
+  color: var(--color-hero-main);
+  background-color: var(--color-dark-bg);
+}
+.white-bg {
+  color: var(--color-info-header);
+  background-color: #fff;
+}
+.light-bg {
+  color: var(--color-quote-text);
+  background-color: var(--color-quote-bg);
+}
+.blue-bg {
+  color: var(--color-hero-secondary);
+  background-color: var(--color-button);
+}
+
+.title-center {
+  text-align: center;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
 }
