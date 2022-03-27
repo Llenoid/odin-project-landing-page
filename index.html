@@ -25,8 +25,8 @@
     <section>
       <div class="dark-bg split">
         <div>
-          <h2>This website is awesome</h2>
-          <p>
+          <h2 class="hero-title">This website is awesome</h2>
+          <p class="hero-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quasi
             doloribus ipsa facere, incidunt totam esse delectus maiores officia
             ducimus facilis tenetur, mollitia consequuntur iure temporibus nulla
@@ -35,7 +35,9 @@
           <button class="signup">Sign up</button>
         </div>
         <div>
-          <div class="placeholder">This is a placeholder for an image</div>
+          <div class="placeholder placeholder--resize">
+            <p class="placeholder-text">This is a placeholder for an image</p>
+          </div>
         </div>
       </div>
     </section>
@@ -43,23 +45,31 @@
     <!-- Some random information -->
     <section>
       <div class="white-bg">
-        <h2 class="title-center">Some random information</h2>
-        <div class="box container">
-          <div class="box subtext">
-            <div class="box rounded"></div>
-            <p>this is some subtext under an illustration or image</p>
+        <h2 class="info-title --title-center">Some random information</h2>
+        <div class="box-container">
+          <div>
+            <div class="box-rounded"></div>
+            <p class="subtext-box">
+              this is some subtext under an illustration or image
+            </p>
           </div>
-          <div class="subtext box">
-            <div class="box rounded"></div>
-            <p>this is some subtext under an illustration or image</p>
+          <div>
+            <div class="box-rounded"></div>
+            <p class="subtext-box">
+              this is some subtext under an illustration or image
+            </p>
           </div>
-          <div class="subtext box">
-            <div class="box rounded"></div>
-            <p>this is some subtext under an illustration or image</p>
+          <div>
+            <div class="box-rounded"></div>
+            <p class="subtext-box">
+              this is some subtext under an illustration or image
+            </p>
           </div>
-          <div class="subtext box">
-            <div class="box rounded"></div>
-            <p>this is some subtext under an illustration or image</p>
+          <div>
+            <div class="box-rounded"></div>
+            <p class="subtext-box">
+              this is some subtext under an illustration or image
+            </p>
           </div>
         </div>
       </div>
@@ -69,15 +79,17 @@
     <section>
       <div class="light-bg">
         <div class="quote">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-            animi amet beatae omnis deleniti repudiandae nesciunt soluta in
-            saepe quibusdam, iure distinctio, fuga facere delectus nostrum
-            incidunt, numquam dolorem odio.
-          </p>
-        </div>
-        <div class="quote author">
-          <h3>-auThor</h3>
+          <div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+              animi amet beatae omnis deleniti repudiandae nesciunt soluta in
+              saepe quibusdam, iure distinctio, fuga facere delectus nostrum
+              incidunt, numquam dolorem odio.
+            </p>
+          </div>
+          <div class="quote-author">
+            <h3>-auThor</h3>
+          </div>
         </div>
       </div>
     </section>
@@ -85,15 +97,19 @@
     <!-- Sign-up -->
     <section>
       <div class="blue-bg">
-        <div><p>Call to action! It's time!</p></div>
-        <div>
-          <p>Sign up for our product by clicking our product over there!</p>
+        <div class="call-to-action">
+          <div>
+            <p>Call to action! It's time!</p>
+            <p>Sign up for our product by clicking our product over there!</p>
+          </div>
+          <div>
+            <button class="signup">Sign up</button>
+          </div>
         </div>
-        <div><button class="signup">Sign up</button></div>
       </div>
     </section>
 
-    <section class="dark-bg title-center --footer">
+    <section class="dark-bg --title-center --footer">
       <footer>
         <p>Copyright &copy; The Odin Project 2021</p>
       </footer>
