@@ -13,7 +13,6 @@
 }
 
 * {
-  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
 }
@@ -101,6 +100,7 @@ ul {
   color: var(--color-info-text);
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 h3 {
@@ -110,6 +110,7 @@ h3 {
 
 #four-subtext-containers {
   display: flex;
+  flex: 1;
   justify-content: center;
   gap: 48px;
   margin: 36px;
