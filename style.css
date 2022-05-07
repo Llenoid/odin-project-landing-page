@@ -72,6 +72,10 @@ ul {
   gap: 0.5rem;
 }
 
+a {
+  color: var(--color-hero-secondary);
+}
+
 .signup {
   background-color: var(--color-button);
   color: var(--color-hero-secondary);
